@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Cormorant+Infant&family=DM+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid #f00 !important; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .logo{
+    padding: 28px 34px;
+}
+.nav .img{
+    margin-top: 24px;
+    width: 340px;
+    height: 240px;
+    background-color: #FFB470;
+    background-image: url("./assets/first-pg/img/raimond-klavins-7rciqlh5_iQ-unsplash\ 1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+.nav .link{
+    text-transform: uppercase;
+    padding-top: 43px;
+    padding-right: 47px;
+    font-family: 'DM Mono', monospace;
+}
+
+section{
+    margin-top: 40px;
+}
+section .content p{
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+}
+section .content h1{
+    text-align: right;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:120px;
+    line-height: 159px;
+}
+section .content h1 span{
+    font-style: italic;
+    font-weight: 550;
+}
+.second-pg{
+    height: 100vh;
+}
+.second-pg .second-img-1 .img{
+    width: 360px;
+    height: 400px;
+    margin-top: 72px;
+    background-color: #FFB470;
+    background-image: url("./assets/second-pg/img-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+.second-pg .second-text p{
+    font-family: 'DM Mono', monospace;
+    width: 446px;
+    height: 120px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.second-pg .second-img-2 .img{
+    width: 330px;
+    height: 240px;
+    margin-top: 355px;
+    background-color: #FFB470;
+    background-image: url("./assets/second-pg/img-2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+/* .third-pg{
+    height: 100vh;
+} */
+.third-pg .text-bar{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 220px;
+    background-color: #F7F7F7;
+}
+.third-pg .text-bar h1{
+    width: 2546px;
+    height: 159px;
+    position: relative;
+    left: -825.23px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 120px;
+    transform: rotate(1deg);
+    color: #E3E3E3;
+}
+.forth-pg .img{
+    width: 100%;
+    height: 750px;
+    background-image: url("./assets/forth-pg/image\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.forth-pg{
+    margin-top: 275px;
+}
+.fifth-pg .fifth-pg-left p{
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.fifth-pg .fifth-pg-left h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 96px;
+    line-height: 98px;
+}
+.fifth-pg .fifth-pg-left h1 span{
+    font-style: italic;
+}
+.fifth-pg .fifth-pg-right{
+    padding-left: 100px;
+}
+.fifth-pg .fifth-pg-right .para-1{
+    width: 562px;
+    margin-top: 101px;
+    font-family: 'DM Mono', monospace;
+    font-size: 20px;
+    line-height: 30px;
+}
+.fifth-pg .fifth-pg-right .para-2{
+    margin-top: 170px;
+    font-family: 'DM Mono', monospace;
+}
+.fifth-pg .fifth-pg-right .para-3{
+    margin-top: 82px;
+    font-family: 'DM Mono', monospace;
+}
+.sixth-pg{
+    margin-top: 180px;
+}
+.sixth-pg .sixth-pg-left{
+    margin-top: 226px;
+}
+.sixth-pg .sixth-pg-left h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 96px;
+    line-height: 98px;
+}
+.sixth-pg .sixth-pg-left h1 span{
+    font-style: italic;
+    font-weight: 450;
+}
+.sixth-pg .sixth-pg-left p{
+    margin-top: 20px;
+    font-family: 'DM Mono', monospace;
+    font-size: 20px;
+    line-height: 30px;
+}
+.sixth-pg .sixth-pg-left a{
+    margin-top: 52px !important;
+    text-transform: uppercase;
+    font-family: 'DM Mono', monospace;
+}
+.sixth-pg .sixth-pg-right .img{
+    /* background-color: #D9D9D9; */
+    width: 514px;
+    height: 556px;
+    margin-top: 101px;
+    background-image: url("./assets/sixth-pg/birmingham-museums-trust-l0PpYGC_YyM-unsplash\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seventh-pg{
+    margin-top: 200px;
+}
+.seventh-pg .seventh-pg-left .img{
+    width: 562px;
+    height: 560px;
+    margin-left: 158px;
+    background-image: url("./assets/seventh-pg/Rectangle\ 12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seventh-pg .seventh-pg-right h1{
+    margin-top: 130px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 96px;
+    line-height: 98px;
+    background: #fff;
+}
+.seventh-pg .seventh-pg-right h1 span{
+    font-style: italic;
+}
+.seventh-pg .seventh-pg-right p{
+    width: 552px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'DM Mono', monospace;
+}
+.eight-pg h1{
+    text-align: center;
+    margin-top: 300px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 96px;
+    line-height: 98px;
+}
+.eight-pg h1 span{
+    font-style: italic;
+}
+.eight-pg ul{
+    font-family: 'DM Mono', monospace;
+    margin-top: 60px; 
+}
+.eight-pg ul li{
+   margin: 0 100px;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+.eight-pg ul li a{
+    color: #000;
+}
+.eight-pg .eight-pg-left .img{
+    width: 736px;
+    height: 578px;
+    background-image: url("./assets/eight-pg/Rectangle\ 11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eight-pg .eight-pg-left .img{
+    margin-top: 80px !important;
+}
+.eight-pg .eight-pg-right .title{
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    margin-top: 468px;
+    margin-left: 90px; 
+}
+.eight-pg .eight-pg-right .body{
+    font-family: 'DM Mono', monospace;
+    margin-left: 90px; 
+    font-size: 20px;
+    line-height: 30px;
+}
+.nineth-pg{
+    margin-top: 300px;
+}
+.nineth-pg p{
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+}
+.nineth-pg h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 96px;
+    line-height: 98px;
+}
+.nineth-pg .box-1 .img{
+    width: 400;
+    height: 260px;
+    margin-top: 40px;
+    background-image: url("./assets/nineth-pg/Rectangle\ 13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nineth-pg .box-2 .img{
+    width: 400;
+    height: 260px;
+    margin-top: 40px;
+    background-image: url("./assets/nineth-pg/Rectangle\ 14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nineth-pg .box-3 .img{
+    width: 400;
+    height: 260px;
+    margin-top: 40px;
+    background-image: url("./assets/nineth-pg/Rectangle\ 15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nineth-pg .box-1 p, .box-2 p, .box-3 p{
+    margin-top: 20px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.nineth-pg .box-1 a, .box-2 a, .box-3 a{
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+.footer-pg{
+    height: 600px;
+    margin-top: 200px;
+    background-color: #F8F8F8;
+}
+.footer-pg .logo{
+    padding-top: 65px !important;
+    padding-left: 34px;
+}
+.footer-pg .myForm{
+    width: 440px;
+    padding-top: 60px;
+}
+.footer-pg .myForm p{
+    font-family: 'DM Mono', monospace;
+}
+.footer-pg .myForm h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 96px;
+    line-height: 98px;
+}
+.footer-pg .myForm input{
+    width: 100%;
+    height: 56px;
+    padding-left: 30px;
+    margin-top: 20px;
+    border-radius: 0%;
+    border: none;
+    background: #EEEEEE;
+}
+.footer-pg .myForm input::placeholder{
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    color: #000;
+}
+.footer-pg .myForm input:focus{
+    border-bottom: 2px solid #2C9AFF;
+    outline: none;
+    opacity: 0.5;
+}
+.footer-pg .myForm button{
+    width: 100%;
+    height: 56px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 0%;
+    border: none;
+    background: #EEEEEE;
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: underline;
+}
+
+
+
+
+
